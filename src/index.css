@@ -1,4 +1,21 @@
-
+/* Custom class for iPhone 12 Pro (390px width) margin top */
+@media (width: 390px) {
+  .iphone12pro\:mt-40 {
+    margin-top: 160px !important;
+  }
+}
+/* Custom class for iPhone 11 Pro Max (414px width) margin top */
+@media (width: 414px) {
+  .iphone11proMax\:mt-32 {
+    margin-top: 128px !important;
+  }
+}
+/* Custom class for iPhone 11 (375px width) margin top */
+@media (width: 375px) {
+  .iphone11\:mt-20 {
+    margin-top: 75px !important;
+  }
+}
 @import "tailwindcss";
 
 
