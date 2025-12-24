@@ -1,0 +1,33 @@
+
+@import "tailwindcss";
+
+
+
+/* Ensure hover:text-primary works with custom color */
+/*
+  Usage:
+  - Add 'text-primary' to any element for red text.
+  - Add 'hover:text-primary' to any element for red on hover.
+*/
+.text-primary {
+  color: #000000;
+}
+.hover\:text-primary-red:hover {
+  color: #fc0606;
+}
+
+
+body {
+  background-color: var(--background, #fff);
+  color: var(--foreground, #000);
+  transition-property: background-color, color;
+  transition-duration: 300ms;
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
