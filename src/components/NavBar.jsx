@@ -133,7 +133,7 @@ const NavBar = () => {
         <div className='max-w-7xl mx-auto flex items-center justify-between px-1 md:px-2 ml-2'>
           <a href='#hero' className='flex items-center bg-white shadow-md shadow-black/30 px-0.5 py-0 rounded-md'>
             <img 
-              src="src/assets/logo-rm.png" 
+              src="/assets/logo-rm.png" 
               alt="Acia Eventos Logo" 
               className="h-6 md:h-15" 
             />
