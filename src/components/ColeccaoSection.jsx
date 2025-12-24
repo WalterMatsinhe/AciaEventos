@@ -1,46 +1,41 @@
 import React from "react";
-import colecao1 from '../assets/colecao/colecao1.png';
-import colecao2 from '../assets/colecao/colecao2.png';
-import colecao3 from '../assets/colecao/colecao3.png';
-import colecao4 from '../assets/colecao/colecao4.png';
-import colecao5 from '../assets/colecao/colecao5.png';
-import colecao6 from '../assets/colecao/colecao6.png';
+
 
 const coleccaoItems = [
   {
     name: "Cadeiras",
     href: "#chairs",
-    image: colecao2,
+    image: "/assets/colecao/colecao2.png",
     description: "Diversos modelos de cadeiras para eventos sociais e corporativos.",
   },
   {
     name: "Mesas",
     href: "#tables",
-    image: colecao4,
+    image: "/assets/colecao/colecao4.png",
     description: "Mesas de vários tamanhos e estilos para todas as ocasiões.",
   },
   {
     name: "Som",
     href: "#sound",
-    image: colecao6,
+    image: "/assets/colecao/colecao6.png",
     description: "Equipamentos de som de alta qualidade para seu evento.",
   },
   {
     name: "Tendas",
     href: "#tents",
-    image: colecao3,
+    image: "/assets/colecao/colecao3.png",
     description: "Tendas resistentes e elegantes para proteção e conforto.",
   },
   {
     name: "Loiça",
     href: "#dishes",
-    image: colecao1,
+    image: "/assets/colecao/colecao1.png",
     description: "Pratos, copos, talheres e utensílios de mesa para servir com elegância.",
   },
   {
     name: "Outros Itens",
     href: "#other-items",
-    image: colecao5,
+    image: "/assets/colecao/colecao5.png",
     description: "Acessórios e itens diversos para complementar seu evento.",
   },
 ];

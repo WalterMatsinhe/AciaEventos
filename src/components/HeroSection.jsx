@@ -4,13 +4,13 @@ import { BorderBeam } from "./magicui/border-beam";
 
 
 const slides = [
-  "/src/assets/banners/banner1.png",
-  "/src/assets/banners/banner2.png",
-  "/src/assets/banners/banner3.png",
-  "/src/assets/banners/banner4.png",
-  "/src/assets/banners/banner5.png",
-  "/src/assets/banners/banner7.png",
-  "/src/assets/banners/banner8.png",
+  "/assets/banners/banner1.png",
+  "/assets/banners/banner2.png",
+  "/assets/banners/banner3.png",
+  "/assets/banners/banner4.png",
+  "/assets/banners/banner5.png",
+  "/assets/banners/banner7.png",
+  "/assets/banners/banner8.png",
 ];
 
 const HeroSection = () => {

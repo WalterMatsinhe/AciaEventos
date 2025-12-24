@@ -1,18 +1,5 @@
 import React, { useState, useEffect } from "react";
-import evento1 from "../assets/gallery/evento1.png";
-import evento2 from "../assets/gallery/evento2.png";
-import evento3 from "../assets/gallery/evento3.png";
-import evento4 from "../assets/gallery/evento4.png";
-import evento5 from "../assets/gallery/evento5.png";
-import evento6 from "../assets/gallery/evento6.png";
-import evento8 from "../assets/gallery/evento8.png";
-import evento9 from "../assets/gallery/evento9.png";
-import evento10 from "../assets/gallery/evento10.png";
-import evento12 from "../assets/gallery/evento12.png";
-import evento14 from "../assets/gallery/evento14.png";
-import evento15 from "../assets/gallery/evento15.png";
-import evento16 from "../assets/gallery/evento16.png";
-import evento17 from "../assets/gallery/evento18.png";
+// Imagens agora são servidas da pasta public/assets/gallery
 import NavBar from "../components/NavBar";
 
 const categories = [
@@ -25,21 +12,21 @@ const categories = [
 ];
 
 const photos = [
-  { src: evento1, category: "Crianças" },
-  { src: evento2, category: "Crianças" },
-  { src: evento3, category: "Crianças" },
-  { src: evento4, category: "Crianças" },
-  { src: evento5, category: "Crianças" },
-  { src: evento6, category: "Casamento" },
-  { src: evento8, category: "Graduação" },
-  { src: evento9, category: "Graduação" },
-  { src: evento10, category: "Aniversário" },
-  { src: evento12, category: "Aniversário" },
-  { src: evento14, category: "Aniversário" },
-  { src: evento15, category: "Aniversário" },
-  { src: evento16, category: "Aniversário" },
-  { src: evento17, category: "Aniversário" },
-  { src: evento14, category: "Outros" },
+  { src: "/assets/gallery/evento1.png", category: "Crianças" },
+  { src: "/assets/gallery/evento2.png", category: "Crianças" },
+  { src: "/assets/gallery/evento3.png", category: "Crianças" },
+  { src: "/assets/gallery/evento4.png", category: "Crianças" },
+  { src: "/assets/gallery/evento5.png", category: "Crianças" },
+  { src: "/assets/gallery/evento6.png", category: "Casamento" },
+  { src: "/assets/gallery/evento8.png", category: "Graduação" },
+  { src: "/assets/gallery/evento9.png", category: "Graduação" },
+  { src: "/assets/gallery/evento10.png", category: "Aniversário" },
+  { src: "/assets/gallery/evento12.png", category: "Aniversário" },
+  { src: "/assets/gallery/evento14.png", category: "Aniversário" },
+  { src: "/assets/gallery/evento15.png", category: "Aniversário" },
+  { src: "/assets/gallery/evento16.png", category: "Aniversário" },
+  { src: "/assets/gallery/evento18.png", category: "Aniversário" },
+  { src: "/assets/gallery/evento14.png", category: "Outros" },
 ];
 
 const scrollToHash = () => {
