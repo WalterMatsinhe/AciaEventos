@@ -28,8 +28,8 @@ const Home = () => {
       <NavBar />
       <main>
         <HeroSection />
-        <ColeccaoSection />
         <AboutSection/>
+        <ColeccaoSection />
         <ContactSection/>
       </main>
       <Footer/>

@@ -29,7 +29,7 @@ const HeroSection = () => {
       {/* Banner slider with anchor for Home */}
       <div
         id="hero"
-        className="relative w-full h-[220px] md:h-[320px] lg:h-[420px] overflow-hidden mt-16"
+        className="relative w-full h-[220px] md:h-[320px] lg:h-[420px] overflow-hidden mt-16 -mb-4"
       >
         {slides.map((slide, index) => (
           <div

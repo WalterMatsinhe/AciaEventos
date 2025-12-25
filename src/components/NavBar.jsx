@@ -49,6 +49,7 @@ import { AuroraText } from "./magicui/aurora-text";
 
   const navItems = [
     { name: 'Início', isHome: true },
+    { name: 'Sobre', hash: 'about' },
     {
       name: 'Coleções',
       subItems: [
@@ -62,7 +63,6 @@ import { AuroraText } from "./magicui/aurora-text";
     },
     { name: 'Serviços', href: '/servicos', isRoute: true },
     { name: 'Galeria', href: '/gallery', isRoute: true },
-    { name: 'Sobre', hash: 'about' },
     { name: 'Contato', hash: 'contact' },
   ];
 
@@ -186,12 +186,13 @@ const NavBar = () => {
           ))}
         </div>
  
-        <button 
-          onClick={() => setIsMenuOpen((prev) => !prev)} 
-          className='md:hidden p-2 text-foreground z-50 ml-2'
-          aria-label= {isMenuOpen ? 'Close Menu' : 'Open Menu'}
+        <button
+          onClick={() => setIsMenuOpen((prev) => !prev)}
+          className='md:hidden fixed top-4 right-4 p-3 rounded-full bg-white/90 dark:bg-background/90 shadow-lg text-foreground z-[100] focus:outline-none transition-all duration-200 hover:bg-primary/10 active:scale-95'
+          style={{ width: 52, height: 52 }}
+          aria-label={isMenuOpen ? 'Close Menu' : 'Open Menu'}
         >
-          {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          {isMenuOpen ? <X size={32} /> : <Menu size={32} />}
         </button>
 
         <div

@@ -20,9 +20,9 @@ const servicos = [
     itens: [
       { nome: "Cadeira", preco: "70,00 MZN / unidade" },
       { nome: "Mesa", preco: "350,00 MZN / unidade" },
-      { nome: "Tenda", preco: "a partir de 3.500,00 MZN" },
+      { nome: "Tenda", preco: "a partir de 5000,00 MZN" },
       { nome: "Loiça", preco: "35,00 MZN / peça" },
-      { nome: "Sistema de som", preco: "a partir de 2.800,00 MZN" }
+      { nome: "Sistema de som", preco: "a partir de 10.500,00 MZN" }
     ]
   },
   {
