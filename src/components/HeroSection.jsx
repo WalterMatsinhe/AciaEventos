@@ -25,11 +25,11 @@ const HeroSection = () => {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen ">
+    <div className="flex flex-col">
       {/* Banner slider with anchor for Home */}
       <div
         id="hero"
-        className="relative w-full h-[320px] md:h-[310px] lg:h-[420px] overflow-hidden scroll-mt-24"
+        className="relative w-full h-[220px] md:h-[320px] lg:h-[420px] overflow-hidden mt-16"
       >
         {slides.map((slide, index) => (
           <div
@@ -45,7 +45,7 @@ const HeroSection = () => {
               <img
                 src={slide}
                 alt={`Banner ${index + 1}`}
-                className="w-full h-full object-cover mt-17 "
+                className="w-full h-full object-cover"
               />
               <BorderBeam
                 duration={5}

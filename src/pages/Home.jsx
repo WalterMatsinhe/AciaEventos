@@ -24,7 +24,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="min-h-screen overflow-x-hidden">
+    <div className="overflow-x-hidden">
       <NavBar />
       <main>
         <HeroSection />

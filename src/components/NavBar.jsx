@@ -123,7 +123,7 @@ const NavBar = () => {
 
       <nav
         className={cn(
-          'fixed w-full z-40 transition-all duration-300',
+          'fixed w-full z-50 transition-all duration-300 m-0 p-0',
           isScrolled
             ? 'py-0 bg-background/80 backdrop-blur-md shadow-xs'
             : 'py-0.5'
@@ -196,14 +196,22 @@ const NavBar = () => {
 
         <div
           className={cn(
-            'fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center',
-            'transition-all duration-300 text-glow',
+            'fixed top-0 left-0 w-full h-full bg-white/95 dark:bg-background/95 backdrop-blur-md z-50 flex flex-col justify-center items-center transition-all duration-300 text-glow',
             isMenuOpen
               ? 'opacity-100 pointer-events-auto'
               : 'opacity-0 pointer-events-none'
           )}
         >
-          <div className='flex flex-col space-y-6 text-xl'>
+          {/* Close button */}
+          <button
+            className="absolute top-6 right-6 text-4xl text-primary focus:outline-none z-50 bg-white/80 dark:bg-background/80 rounded-full p-2 shadow-md hover:bg-primary/10 transition"
+            aria-label="Fechar menu"
+            onClick={() => setIsMenuOpen(false)}
+            tabIndex={0}
+          >
+            &times;
+          </button>
+          <div className='flex flex-col items-center justify-center space-y-8 text-2xl w-full max-w-xs mx-auto px-4 py-8 rounded-lg shadow-lg bg-white/90 dark:bg-background/90'>
             {navItems.map((item, key) => (
               item.isHome ? (
                 <a
